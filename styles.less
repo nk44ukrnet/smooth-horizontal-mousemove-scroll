@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  //transition: all .25s linear;
+}
+
+body {
+  //overflow-x: hidden;
+}
+
+.container {
+  overflow-x: hidden;
+  .inner {
+    width: 100vw;
+    //overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    .item {
+      flex: 0 0 50vw;
+      position: relative;
+
+      &:nth-child(1) {
+        //margin-left: -75%;
+      }
+
+      img {
+        width: 100%;
+        display: inline-block;
+        height: auto;
+      }
+    }
+  }
+}

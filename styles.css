@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  overflow-x: hidden;
+}
+.container .inner {
+  width: 100vw;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.container .inner .item {
+  flex: 0 0 50vw;
+  position: relative;
+}
+.container .inner .item img {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+}
+/*# sourceMappingURL=styles.css.map */
